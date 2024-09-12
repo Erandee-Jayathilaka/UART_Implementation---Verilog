@@ -5,6 +5,9 @@ For this project, I designed a UART module using Verilog, which handled parallel
 
 Physically, I connected the Tx (transmit) and Rx (receive) pins of the DE2-115 board to the corresponding pins of the device I was communicating with, ensuring that the baud rates between the transmitter and receiver matched to guarantee reliable data transfer
 
+#### UART Block Diagram:
+<img src="https://github.com/Erandee-Jayathilaka/UART_Implementation---Verilog/blob/main/UART/simulation_results/Transceiver_Schematic.png" alt="Transmitter simulation" width="1000" height="500">
+
 #### Simulation Waveforms:
 <img src="https://github.com/Erandee-Jayathilaka/UART_Implementation---Verilog/blob/main/UART/simulation_results/tx.png" alt="Transmitter simulation" width="1000" height="500">
 <img src="https://github.com/Erandee-Jayathilaka/UART_Implementation---Verilog/blob/main/UART/simulation_results/Rx.png" alt="Transmitter simulation" width="1000" height="500">
